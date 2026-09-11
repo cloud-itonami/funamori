@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; funamori 舫 — tests for the salinity-gradient design feasibility-margin lens.
 ;; Run through ./run_tests.sh from the standalone repository.
 (ns funamori.methods.test-design-margins
