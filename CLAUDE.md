@@ -105,7 +105,7 @@ assertions** that throw `ex-info {:error :charter-gate}`, proven by tests.
 ```sh
 ./run_tests.sh          # babashka; 24 tests / 57 assertions green
 # or directly:
-cd .. && bb -cp . -e "(require '[clojure.test :as t] 'funamori.methods.test-salinity-gradient) \
+cd .. && kbb -cp . -e "(require '[clojure.test :as t] 'funamori.methods.test-salinity-gradient) \
                       (t/run-tests 'funamori.methods.test-salinity-gradient)"
 ```
 

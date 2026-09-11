@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; funamori 舫 — validation of the RED (reverse-electrodialysis) electrical model.
 ;; Run through ./run_tests.sh from the standalone repository.
 (ns funamori.methods.test-red-electrical

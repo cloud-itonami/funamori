@@ -20,7 +20,7 @@ fi
 FUNAMORI_CP="$(mktemp -d)"
 trap 'rm -rf "$FUNAMORI_CP"' EXIT
 ln -s "$HIKARI_ROOT" "$FUNAMORI_CP/hikari"
-bb -cp "src:test:$FUNAMORI_CP" -e "(require '[clojure.test :as t]
+kbb -cp "src:test:$FUNAMORI_CP" -e "(require '[clojure.test :as t]
                        'funamori.methods.test-salinity-gradient
                        'funamori.methods.test-stack-robotics
                        'funamori.methods.test-plant
